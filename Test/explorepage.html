@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ILOILOBYTHESEA</title>
+        <link href="explorestyle.css" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" 
+        crossorigin="anonymous"></script>
+    </head>
+  <body>
+
+    <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link active" href="#header">Home</a></li>
+          <li><a class="nav-link" href="#explore">Explore</a></li>
+          <li><a class="nav-link" href="#locate">Locate</a></li>
+          <li><a class="nav-link" href="#about">About Us</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+
+
+    <div class="row1">
+        <div class="image-container1">
+          <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal1')">
+          <h3>Loren Ipsum</h3>
+        </div>
+        <div class="image-container1">
+          <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal2')">
+          <h3>Loren Ipsum</h3>
+        </div>
+      <div class="image-container1" id="img3">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal3')">
+        <h3>Loren Ipsum</h3>
+      </div>
+      <div class="image-container1" id="img4">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal4')">
+        <h3>Loren Ipsum</h3>
+      </div>
+    </div>
+
+<br>
+    <div class="row2">
+      <div class="image-container2" id="img5">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal5')">
+        <h3>Loren Ipsum</h3>
+      </div>
+      <div class="image-container2" id="img6">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal6')">
+        <h3>Loren Ipsum</h3>
+      </div>
+      <div class="image-container2" id="img7">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal7')">
+        <h3>Loren Ipsum</h3>
+      </div>
+      <div class="image-container2" id="img8">
+        <img class="img" src="img/placeholder-image.jpg" onclick="openModal('myModal8')">
+        <h3>Loren Ipsum</h3>
+      </div>
+    </div>
+<br>
+
+    <div class="modal" id="myModal1">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal1')">&times;</span>
+          <img class="modal_img" id="modal_img_1" src="img/placeholder-image_1.jpg" >
+          <p class="modeldes" id="modeldes1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal2">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal2')">&times;</span>
+          <img class="modal_img" id="modal_img_2" src="img/placeholder-image_2.jpg" >
+          <p class="modeldes" id="modeldes2">Ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal3">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal3')">&times;</span>
+          <img class="modal_img" id="modal_img_3" src="img/placeholder-image_3.jpg" >
+          <p class="modeldes" id="modeldes3">Dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal4">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal4')">&times;</span>
+          <img class="modal_img" id="modal_img_4" src="img/placeholder-image_4.jpg" >
+          <p class="modeldes" id="modeldes4">Sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal5">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal5')">&times;</span>
+          <img class="modal_img" id="modal_img_5" src="img/placeholder-image_5.jpg" >
+          <p class="modeldes" id="modeldes5">Amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal6">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal6')">&times;</span>
+          <img class="modal_img" id="modal_img_6" src="img/placeholder-image_6.jpg" >
+          <p class="modeldes" id="modeldes6">Consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal7">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal7')">&times;</span>
+          <img class="modal_img" id="modal_img_7" src="img/placeholder-image_7.jpg" >
+          <p class="modeldes" id="modeldes7">Adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+    <div class="modal" id="myModal8">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal('myModal8')">&times;</span>
+          <img class="modal_img" id="modal_img_8" src="img/placeholder-image_8.jpg" >
+          <p class="modeldes" id="modeldes">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+            dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </div>
+
+
+    <div id="wrapper"></div>
+ 
+
+
+
+
+    <script src="script/explorer-script.js"></script>
+  </body>
+</html>
